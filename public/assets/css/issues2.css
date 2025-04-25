@@ -14,17 +14,14 @@ body {
     background-color: black;
 }
 h1{
-    font-size: 2em;
-    margin-bottom: 20px;
+    font-size: 1em;
     font-weight: 20;
     color: white;
     letter-spacing: 2px;
   text-align: center;
   color: white;
-  margin-bottom: 40px;
-  margin-top: 120px; /* To push it below the logo */
-  text-transform: uppercase;
-    
+  margin-top: 100px; /* To push it below the logo */
+  text-transform: uppercase; 
   
 }
 
@@ -254,6 +251,9 @@ i{
         width : 35vw;
         height: 45vw;
 
+    }
+    h1{
+        margin-top: 10px;
     }
   
     
