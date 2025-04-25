@@ -13,13 +13,13 @@
             <img src="public/images/a2-logo-white-8.29.avif" alt="Logo with the letter a and an expoenet of two" />
         </div>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About us</a></li>
-            <li><a href="issues.html">Mags</a></li>
-            <li><a href="joinus.html">Join Us</a></li>
-            <li><a href="events.html">Events</a></li>
-            <li><a href="affiliates.html">Affiliate program</a></li>
-            <li><a href="shoots.html">Blog</a></li>
+            <li><a href="index.html" tabindex="0">Home</a></li>
+            <li><a href="about.html" tabindex="0">About us</a></li>
+            <li><a href="issues.html" tabindex="0">Mags</a></li>
+            <li><a href="joinus.html" tabindex="0">Join Us</a></li>
+            <li><a href="events.html" tabindex="0">Events</a></li>
+            <li><a href="affiliates.html" tabindex="0">Affiliate program</a></li>
+            <li><a href="shoots.html" tabindex="0">Blog</a></li>
         </ul>
     </nav>
     <main>
@@ -36,17 +36,18 @@
         </div>  
         <div class="form-container">
             <h1>2025 recruitment Season begins soon!</h1>
-            <form id="contact-form">
+            <form id="contact-form" action="https://formspree.io/f/movdvaav"
+            method="POST">
                 <div class="form-group">
                     <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required tabindex="0">
                 </div>
                 <div class="form-group">
                     <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required tabindex="0">
                 </div>
                 <div class="form-group">
-                    <button type="submit">Submit</button>
+                    <button type="submit" tabindex="0">Submit</button>
                 </div>
             </form>
         </div>

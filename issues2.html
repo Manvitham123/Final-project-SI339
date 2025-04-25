@@ -1,87 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Magazines</title>
-         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="public/assets/css/issues2.css">
-        <link rel="stylesheet" href="public/assets/css/navbar.css">
-        <script src="public/assets/js/issues2.js" defer></script>
-        <script src="https://kit.fontawesome.com/90e1fbc4ef.js" crossorigin="anonymous"></script>
-       
-    </head>
-    <body>
+
+<head>
+    <title>Magazines</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/assets/css/issues2.css">
+    <link rel="stylesheet" href="public/assets/css/navbar.css">
+    <script src="public/assets/js/issues2.js" defer></script>
+    <script src="https://kit.fontawesome.com/90e1fbc4ef.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
     <nav>
         <div class="logo">
             <img src="public/images/a2-logo-white-8.29.avif" alt="Logo with the letter a and an expoenet of two" />
         </div>
         <ul>
-            <li><a href="index2.html">Home</a></li>
-            <li><a href="about.html">About us</a></li>
-            <li><a href="issues.html">Mags</a></li>
-            <li><a href="joinus.html">Join Us</a></li>
-            <li><a href="events.html">Events</a></li>
-            <li><a href="affiliates.html">Affiliate program</a></li>
-            <li><a href="shoots.html">Blog</a></li>
+            <li><a href="index.html" tabindex="0">Home</a></li>
+            <li><a href="about.html" tabindex="0">About us</a></li>
+            <li><a href="issues.html" tabindex="0">Mags</a></li>
+            <li><a href="joinus.html" tabindex="0">Join Us</a></li>
+            <li><a href="events.html" tabindex="0">Events</a></li>
+            <li><a href="affiliates.html" tabindex="0">Affiliate program</a></li>
+            <li><a href="shoots.html" tabindex="0">Blog</a></li>
         </ul>
     </nav>
-        
-            <!-- close enlargement button -->
-        <main>
-        <div id="close-btn">
-               <i class="fa-solid fa-x" style="color: #ffffff;"></i>
+
+
+    <main>
+        <!-- close enlargement button -->
+        <div id="close-btn" aria-label="Close magazine viewer">
+            <i class="fa-solid fa-x" style="color: #ffffff;"></i>
         </div>
-        
+
         <!-- previous button -->
-         <button id="prev-btn">
+        <button id="prev-btn" tabindex="0" aria-label="go to previous page in magazine">
             <i id="leftarrow" class="fa-solid fa-arrow-left" style="color: #ffffff;"></i>
-            
+
         </button>
-       
-       
-         <div class="book" id="book">
+
+
+
+        <div class="book" id="book">
             <!--paper 1-->
             <div id="p1" class="paper" style="z-index: 14;">
-                <div class="front" >
+                <div class="front">
                     <div id="f1" class="front-content" id="magnify-btn">
-                        <img src="public/images/Spring-issue/cover.jpg">
+                        <img src="public/images/Spring-issue/cover.jpg"
+                            alt="spring 2023 magazine cover featuring a girl leaning against a wall wearing a racer jacket">
                     </div>
                 </div>
 
                 <div class="back">
                     <div id="b1" class="back-content">
-                        <img src="public/images/Spring-issue/p2.jpg">
-                    
+                        <img src="public/images/Spring-issue/p2.jpg"
+                            alt="credits page with picture of girl standing in front of a tree">
+
                     </div>
                 </div>
             </div>
             <div id="p2" class="paper" style="z-index: 13;">
                 <div class="front">
                     <div id="f2" class="front-content">
-                        <img src="public/images/Spring-issue/p3.jpg">
-                      
+                        <img src="public/images/Spring-issue/p3.jpg" alt="picture of girl kneeling on the grass">
+
                     </div>
                 </div>
 
                 <div class="back">
                     <div id="b2" class="back-content">
-                        <img src="public/images/Spring-issue/p4.jpg">
-                   
+                        <img src="public/images/Spring-issue/p4.jpg"
+                            alt="university vintage photoshoot featuring two guys in michigan gear">
+
                     </div>
                 </div>
             </div>
             <div id="p3" class="paper" style="z-index: 12;">
                 <div class="front">
                     <div id="f3" class="front-content">
-                        <img src="public/images/Spring-issue/p5.jpg">
-                   
+                        <img src="public/images/Spring-issue/p5.jpg"
+                            alt="6 people stand around a mail box in ann arbor wearing university of vintage gear">
+
                     </div>
                 </div>
 
                 <div class="back">
                     <div id="b3" class="back-content">
-                        <img src="public/images/Spring-issue/p6.jpg">
-                      
+                        <img src="public/images/Spring-issue/p6.jpg"
+                            alt="guy looks down on camera infront of no turn on red sign">
+
                     </div>
                 </div>
             </div>
@@ -89,15 +98,15 @@
             <div id="p4" class="paper" style="z-index: 11;">
                 <div class="front">
                     <div id="f4" class="front-content">
-                        <img src="public/images/Spring-issue/p7.jpg">
-                   
+                        <img src="public/images/Spring-issue/p7.jpg" alt="guy with pink hair stairs into the distance">
+
                     </div>
                 </div>
 
                 <div class="back">
                     <div id="b4" class="back-content">
-                        <img src="public/images/Spring-issue/p8.jpg">
-                      
+                        <img src="public/images/Spring-issue/p8.jpg" alt="picture of state street theatre at night">
+
                     </div>
                 </div>
             </div>
@@ -105,15 +114,15 @@
             <div id="p5" class="paper" style="z-index: 10;">
                 <div class="front">
                     <div id="f5" class="front-content">
-                        <img src="public/images/Spring-issue/p9.jpg">
-                   
+                        <img src="public/images/Spring-issue/p9.jpg" alt="ann arbor film festival column">
+
                     </div>
                 </div>
 
                 <div class="back">
                     <div id="b5" class="back-content">
-                        <img src="public/images/Spring-issue/p10.jpg">
-                      
+                        <img src="public/images/Spring-issue/p10.jpg" alt="more films from the ann arbor film festival">
+
                     </div>
                 </div>
             </div>
@@ -121,15 +130,17 @@
             <div id="p6" class="paper" style="z-index: 9;">
                 <div class="front">
                     <div id="f6" class="front-content">
-                        <img src="public/images/Spring-issue/p11.jpg">
-                   
+                        <img src="public/images/Spring-issue/p11.jpg"
+                            alt="even more films from the ann arbor film festival">
+
                     </div>
                 </div>
 
                 <div class="back">
                     <div id="b6" class="back-content">
-                        <img src="public/images/Spring-issue/p12.jpg">
-                      
+                        <img src="public/images/Spring-issue/p12.jpg"
+                            alt="love struck: photo of two girls staring up at the camera with valentines all around them">
+
                     </div>
                 </div>
             </div>
@@ -137,15 +148,16 @@
             <div id="p7" class="paper" style="z-index: 8;">
                 <div class="front">
                     <div id="f7" class="front-content">
-                        <img src="public/images/Spring-issue/p13.jpg">
-                   
+                        <img src="public/images/Spring-issue/p13.jpg"
+                            alt="photo of girl holding up a candy heart to her mouth but it has asquared's logo on it">
+
                     </div>
                 </div>
 
                 <div class="back">
                     <div id="b7" class="back-content">
-                        <img src="public/images/Spring-issue/p14.jpg">
-                      
+                        <img src="public/images/Spring-issue/p14.jpg" alt="enspired runway">
+
                     </div>
                 </div>
             </div>
@@ -153,14 +165,15 @@
             <div id="p8" class="paper" style="z-index: 7;">
                 <div class="front">
                     <div id="f8" class="front-content">
-                        <img src="public/images/Spring-issue/p15.jpg">
-                   
+                        <img src="public/images/Spring-issue/p15.jpg"
+                            alt="photo of girl on runway wearing a black hoodie">
+
                     </div>
                 </div>
 
                 <div class="back">
                     <div id="b8" class="back-content">
-                        <img src="public/images/Spring-issue/p16.jpg">
+                        <img src="public/images/Spring-issue/p16.jpg" alt="collage of 3 photos of people on the runway">
                     </div>
                 </div>
             </div>
@@ -168,14 +181,15 @@
             <div id="p9" class="paper" style="z-index: 6;">
                 <div class="front">
                     <div id="f9" class="front-content">
-                        <img src="public/images/Spring-issue/p17.jpg">
+                        <img src="public/images/Spring-issue/p17.jpg" alt="gut wearing a blue alaska corduroy jacket">
                     </div>
                 </div>
 
                 <div class="back">
                     <div id="b9" class="back-content">
-                        <img src="public/images/Spring-issue/p18.jpg">
-                      
+                        <img src="public/images/Spring-issue/p18.jpg"
+                            alt="photo of model laying on a couch looking up at the camera">
+
                     </div>
                 </div>
             </div>
@@ -183,13 +197,14 @@
             <div id="p10" class="paper" style="z-index: 5;">
                 <div class="front">
                     <div id="f10" class="front-content">
-                        <img src="public/images/Spring-issue/p19.jpg">
+                        <img src="public/images/Spring-issue/p19.jpg"
+                            alt="4 photos of model wearing a red racer jacker">
                     </div>
                 </div>
                 <div class="back">
                     <div id="b10" class="back-content">
-                        <img src="public/images/Spring-issue/p20.jpg">
-                      
+                        <img src="public/images/Spring-issue/p20.jpg" alt="photo of guy at night in an alleyway">
+
                     </div>
                 </div>
             </div>
@@ -197,15 +212,17 @@
             <div id="p11" class="paper" style="z-index: 4;">
                 <div class="front">
                     <div id="f11" class="front-content">
-                        <img src="public/images/Spring-issue/p21.jpg">
-                   
+                        <img src="public/images/Spring-issue/p21.jpg"
+                            alt="photo of guy in an elevator wearing a black leather jacket">
+
                     </div>
                 </div>
 
                 <div class="back">
                     <div id="b11" class="back-content">
-                        <img src="public/images/Spring-issue/p22.jpg">
-                      
+                        <img src="public/images/Spring-issue/p22.jpg"
+                            alt="black and white photo of model with facial piercings">
+
                     </div>
                 </div>
             </div>
@@ -213,15 +230,17 @@
             <div id="p12" class="paper" style="z-index: 3;">
                 <div class="front">
                     <div id="f12" class="front-content">
-                        <img src="public/images/Spring-issue/p23.jpg">
-                   
+                        <img src="public/images/Spring-issue/p23.jpg"
+                            alt="two black and white photos of two girls hugging ">
+
                     </div>
                 </div>
 
                 <div class="back">
                     <div id="b12" class="back-content">
-                        <img src="public/images/Spring-issue/p24.jpg">
-                      
+                        <img src="public/images/Spring-issue/p24.jpg"
+                            alt="group photo of sister 2 sister a campus orginization">
+
                     </div>
                 </div>
             </div>
@@ -229,15 +248,16 @@
             <div id="p13" class="paper" style="z-index: 2;">
                 <div class="front">
                     <div id="f13" class="front-content">
-                        <img src="public/images/Spring-issue/p25.jpg">
-                   
+                        <img src="public/images/Spring-issue/p25.jpg" alt="photos of each memeber from sister 2 sister">
+
                     </div>
                 </div>
 
                 <div class="back">
                     <div id="b13" class="back-content">
-                        <img src="public/images/Spring-issue/p26.jpg">
-                      
+                        <img src="public/images/Spring-issue/p26.jpg"
+                            alt="two people walking around and posing in downtown ann arbor">
+
                     </div>
                 </div>
             </div>
@@ -245,29 +265,32 @@
             <div id="p14" class="paper" style="z-index: 1;">
                 <div class="front">
                     <div id="f14" class="front-content">
-                        <img src="public/images/Spring-issue/p27.jpg">
-                   
+                        <img src="public/images/Spring-issue/p27.jpg"
+                            alt="two people posing wearing merch from creative blueprint">
+
                     </div>
                 </div>
 
                 <div class="back">
                     <div id="b14" class="back-content">
-                        <img src="public/images/Spring-issue/p28.jpg">
-                      
+                        <img src="public/images/Spring-issue/p28.jpg" alt="black page with a squared logo">
+
                     </div>
                 </div>
             </div>
-         </div>
+        </div>
 
 
 
 
         <!-- next button -->
-        <button id="next-btn">
+        <button id="next-btn" tabindex="0" aria-label="go to next page in magazine">
             <i id="rightarrow" class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
         </button>
-        
-   
+
+
+
     </main>
-    </body>
+</body>
+
 </html>

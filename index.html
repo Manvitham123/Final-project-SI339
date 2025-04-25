@@ -3,30 +3,51 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" href="public/assets/css/home.css" />
-        <script src="public/assets/js/password.js" defer></script>
+        <link rel="stylesheet" href="public/assets/css/index2.css" />
+        <link rel="stylesheet" href="public/assets/css/navbar.css">
         <title>Home page</title>
     </head>
     <body>
     <main>
-        <div class="wrapper">
-            <div class="middle">
-                <div class="logo">
-                    <img src="public/images/logo.avif" class="hi" alt="Logo with the letter a and an expoenet of two"/>
-                </div>
-            </div>
-            <form onsubmit="checkPassword(event)">
-                <input type="text" id="password" name="fpassword" value="password"><br>
-                <input type="submit" value="Submit">
-            </form>
-            <h5 class="footer-text">ART + FASHION + CULTURE</h5>
+      
+        <div class="logo">
+            <a href="index3.html"><img src="public/images/logo.avif" class="hi" alt="Logo with the letter a and an expoenet of two"/></a>
         </div>
-    </main>
+        </div>
+        
+        <div class="loader">
+            <span class="loader_elemnt"></span>
+            <span class="loader_elemnt"></span>
+            <span class="loader_elemnt"></span>
+        </div>
+
+        
+        <div class="nav">
+        <ul>
+            <li><a href="index.html" tabindex="0">Home</a></li>
+            <li><a href="about.html" tabindex="0">About us</a></li>
+            <li><a href="issues.html" tabindex="0">Mags</a></li>
+            <li><a href="joinus.html" tabindex="0">Join Us</a></li>
+            <li><a href="events.html" tabindex="0">Events</a></li>
+            <li><a href="affiliates.html" tabindex="0">Affiliate program</a></li>
+            <li><a href="shoots.html" tabindex="0">Blog</a></li>
+        </ul>
+        </div>
+
+        <div><h6 class="footer-text">Loading</h6></div>
+        </main>
+        <script>
+            setTimeout(function() {
+                window.location.href = "index3.html";
+            }, 3000);
+        </script>
+    
+   
+        
       
          
 
     </body>
-  
 
 
 </html>
