@@ -10,16 +10,16 @@ body {
 
 
 .logo img {
-    position: absolute; /* Place it in the top-left corner */
+    position: absolute; 
     top: 10px;
     left: 10px;
-    max-width: 4%; /* Set a very small width */
+    max-width: 4%; 
     height: auto;
 }
 
 .magazine-container {
-    text-align: center; /* Center align the heading and gallery */
-    margin-top: 100px; /* Push content below the logo */
+    text-align: center; 
+    margin-top: 100px; 
 }
 
 .magazine-container h1 {
@@ -32,9 +32,9 @@ body {
 
 .magazine-gallery {
     display: flex;
-    justify-content: center; /* Center the magazines horizontally */
-    gap: 70px; /* Space between the magazines */
-    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    justify-content: center; 
+    gap: 70px;
+    flex-wrap: wrap; 
     margin-top: 20px;
 }
 
@@ -42,17 +42,17 @@ body {
     text-decoration: none;
     color: white;
     text-align: center;
-    width: 250px; /* Set a fixed width for all magazines */
+    width: 250px; 
 }
 
 .magazine img {
-    width: 100%; /* Ensure the image fits within the magazine container */
-    height: auto; /* Maintain aspect ratio */
-    transition: transform 0.3s ease; /* Add hover effect */
+    width: 100%; 
+    height: auto; 
+    transition: transform 0.3s ease; 
 }
 
 .magazine img:hover {
-    transform: scale(1.1); /* Slightly enlarge on hover */
+    transform: scale(1.1);
 }
 
 .magazine p {

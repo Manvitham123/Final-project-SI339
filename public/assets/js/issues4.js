@@ -74,18 +74,18 @@ var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 function openBook() {
     book.style.transform = "translateX(50%)";
     if(width <= 480){
-        prevBtn.style.transform = "translateX(-285%)";
-        nextBtn.style.transform = "translateX(285%)";
+        prevBtn.style.transform = "translateX(-300%)";
+        nextBtn.style.transform = "translateX(300%)";
 
     }
-    else if(width <= 768){
-        prevBtn.style.transform = "translateX(-285%)";
-        nextBtn.style.transform = "translateX(285%)";
+    else if(width <= 900){
+        prevBtn.style.transform = "translateX(-300%)";
+        nextBtn.style.transform = "translateX(300%)";
 
     }
     else{
-        prevBtn.style.transform = "translateX(-300px)";
-        nextBtn.style.transform = "translateX(300px)";
+        prevBtn.style.transform = "translateX(-200px)";
+        nextBtn.style.transform = "translateX(200px)";
 
     }
    

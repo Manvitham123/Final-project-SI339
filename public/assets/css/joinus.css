@@ -6,7 +6,7 @@ body, html {
     background-color: #000;
     color: #fff;
     font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-    overflow: hidden; /* Prevent unwanted scrolling */
+    overflow: hidden; 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -23,13 +23,13 @@ body, html {
     position: relative;
     width: 100%;
     height: 90vh;
-    overflow: hidden; /* Prevent content overflow */
+    overflow: hidden;
 }
 
 .banner {
     display: flex;
     position: absolute;
-    width: 350%; /* Adjust to fit the repeating images */
+    width: 350%; 
     height: 100%;
     animation: slide 35s linear infinite;
     will-change: transform;
@@ -38,10 +38,10 @@ body, html {
 }
 
 .banner img {
-    width: 100%; /* Each image takes 50% of the banner container */
+    width: 100%; 
     height: 100%;
     object-fit: cover;
-    flex-shrink: 0; /* Prevent images from shrinking */
+    flex-shrink: 0;
 }
 
 @keyframes slide {
@@ -49,7 +49,7 @@ body, html {
         transform: translateX(0);
     }
     100% {
-        transform: translateX(-100%); /* Move by the full width of one set of images */
+        transform: translateX(-100%); 
     }
 }
 
@@ -58,10 +58,10 @@ body, html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 90%; /* Responsive width */
-    max-width: 400px; /* Limit max width */
+    width: 90%; 
+    max-width: 400px; 
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.8); 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
@@ -122,11 +122,11 @@ body, html {
 .logo2 img {
     padding-top: 3vh;
     padding-bottom: 5px;
-    position: absolute; /* Optional: Only if you want it positioned absolutely */
-    width: 20%; /* Set the width explicitly */
-    height: auto; /* Set the height explicitly */
-    object-fit: contain; /* Ensures the image scales without distortion */
-    max-width: none; /* Override any max-width set elsewhere */
+    position: absolute; 
+    width: 20%; 
+    height: auto; 
+    object-fit: contain; 
+    max-width: none; 
     justify-content: center;
 
 }
@@ -137,13 +137,13 @@ body, html {
         position: relative;
         width: 100%;
         height: 90vh;
-        overflow: hidden; /* Prevent content overflow */
+        overflow: hidden;
     }
     
     .banner {
         display: flex;
         position: absolute;
-        width: 790%; /* Adjust to fit the repeating images */
+        width: 790%; 
         height: 100%;
         animation: slide 35s linear infinite;
     }
@@ -157,13 +157,13 @@ body, html {
         position: relative;
         width: 100%;
         height: 90vh;
-        overflow: hidden; /* Prevent content overflow */
+        overflow: hidden;
     }
     
     .banner {
         display: flex;
         position: absolute;
-        width: 1200%; /* Adjust to fit the repeating images */
+        width: 1200%; 
         height: 100%;
         animation: slide 35s linear infinite;
     }

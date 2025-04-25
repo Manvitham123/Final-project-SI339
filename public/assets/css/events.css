@@ -1,4 +1,4 @@
-/* Base Setup */
+
 body, html {
   margin: 0;
   padding: 0;
@@ -10,7 +10,6 @@ body, html {
   overflow-x: hidden;
 }
 
-/* Logo */
 .logo img {
   position: absolute;
   top: 10px;
@@ -19,7 +18,7 @@ body, html {
   height: auto;
 }
 
-/* Typography */
+
 h1, h2, h3 {
   text-align: center;
   font-weight: 600;
@@ -42,7 +41,6 @@ p {
   font-size: 1rem;
 }
 
-/* Event Sections */
 #spring2025, #fall2024 {
   display: grid;
   grid-template-columns: 1fr;
@@ -50,7 +48,6 @@ p {
   padding: 2rem 1rem;
 }
 
-/* Event Cards */
 .event {
   max-width: 900px;
   margin: 0 auto;
@@ -60,7 +57,7 @@ p {
   animation: appearLayer 0.8s ease forwards;
 }
 
-/* Carousel Container */
+
 .carousel {
   display: flex;
   flex-wrap: nowrap;
@@ -85,7 +82,7 @@ p {
   transform: scale(1.05);
 }
 
-/* Fade-In Section Animation */
+
 .fade-in-section {
   opacity: 0;
   transform: translateY(20vh);
@@ -105,7 +102,7 @@ p {
   }
 }
 
-/* Mobile Responsiveness */
+
 @media screen and (max-width: 768px) {
   .carousel img {
     height: 200px;
