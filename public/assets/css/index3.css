@@ -8,7 +8,6 @@ body, html {
   color: #fff;
   font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   overflow-x: hidden; 
-  cursor: url("/public/images/love-always-wins.png"), auto;
 }
 
 .collage {
